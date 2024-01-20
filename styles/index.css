@@ -1,0 +1,1246 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 140px;
+  align-items: center;
+  padding: 0px 125px;
+}
+
+.img {
+  height: 123px;
+  width: 119px;
+  background-repeat: no-repeat;
+}
+
+.item > a {
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn {
+  width: 144px;
+  min-width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 90px;
+  background: #ef6a6b;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  line-height: normal;
+}
+
+.banner {
+  background: url("../assets/banner.jpeg"), lightgray 50% / cover no-repeat;
+  box-shadow: 1440px 848px 0px 0px rgba(0, 0, 0, 0.5) inset;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 720px;
+  flex-shrink: 0;
+  min-width: 100px;
+}
+
+.bannerItem {
+  display: flex;
+  flex-direction: column;
+}
+.bannerItem > .bannerHeader {
+  margin-top: 260px;
+  margin-left: 150px;
+}
+.bannerItem > .bannerBtn {
+  margin-left: 150px;
+}
+
+.bannerHeader p:first-child {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.bannerHeader p:last-child {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.bannerBtn {
+  margin-top: 40px;
+}
+.bannerBtn > .btn1 {
+  width: 144px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 90px;
+  background: #ef6a6b;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  line-height: normal;
+}
+
+.bannerBtn > .btn2 {
+  width: 144px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 90px;
+  background: #fff;
+  border: none;
+  color: rgb(46, 45, 45);
+  font-weight: 400;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  line-height: normal;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top: -95px;
+}
+
+.card > .card1 {
+  border-radius: 15px 0px 0px 15px;
+  background: #78d6d5;
+  width: 387.6px;
+  height: 397px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* word-break: break-all; */
+}
+.card > .card1 p:first-child {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0 0 50px 50px;
+}
+.card > .card1 > .par {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 26.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 30px 40px 50px;
+}
+.cardBtn {
+  color: rgb(46, 45, 45);
+  width: 144px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 90px;
+  background: #fff;
+  color: #2d414c;
+  border: none;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 0 0 50px;
+}
+
+.card > .card2 {
+  /* border-radius: 15px 0px 0px 15px; */
+  background: #2d414c;
+  width: 387.6px;
+  height: 397px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* word-break: break-all; */
+}
+.card > .card2 p:first-child {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0 0 50px 50px;
+}
+.card > .card2 > .par {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 30px 40px 50px;
+}
+
+.card > .card3 {
+  border-radius: 0px 15px 15px 0px;
+  background: #ef6a6b;
+  width: 387.6px;
+  height: 397px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* word-break: break-all; */
+}
+.card > .card3 p:first-child {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0 0 50px 50px;
+}
+.card > .card3 > .par {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 30px 40px 50px;
+}
+
+.aboutUs {
+  width: 541px;
+  height: 546px;
+  margin-right: 100px;
+}
+.box {
+  width: 541px;
+  height: 546px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.list div p {
+  font-size: 20px;
+}
+.list {
+  margin-top: 80px;
+}
+
+.aboutUs > p:nth-child(1) {
+  color: #ef6a6b;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  margin-top: 50px;
+}
+.aboutUs > p:nth-child(2) {
+  color: #2d414c;
+  font-family: "Playfair Display";
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+.aboutUs > p:nth-child(3) {
+  color: #2d414c;
+  font-family: "Playfair Display";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  word-break: break-all;
+  margin-bottom: 40px;
+}
+.aboutUs > p:nth-child(4) {
+  color: #2d414c;
+  font-family: "Playfair Display";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* .lineChart{
+   position: absolute;
+} */
+
+#causes {
+  margin-top: 80px;
+  width: 81.5%;
+  height: fit-content;
+  flex-shrink: 0;
+  background: #f9f9f9;
+  padding: 90px 140px;
+}
+
+#causes p:nth-child(1) {
+  color: #ef6a6b;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+#causes .causesPara {
+  color: #2d414c;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 45px;
+}
+
+.cards {
+  border-radius: 8px;
+  margin: 16px;
+  width: 380px;
+  margin-bottom: 0;
+}
+.cards h2 {
+  color: #ef6a6b;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.cards p {
+  color: #2d414c;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.cards img {
+  max-width: 100%;
+  height: 300px;
+  width: 380px;
+  border-radius: 15px 15px 0 0;
+}
+.causesCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardItem {
+  border-radius: 15px 15px;
+  background: #fff;
+  position: relative;
+  top: -20px;
+  padding: 40px;
+}
+
+.cardItem button {
+  border-radius: 90px;
+  background: #78d6d5;
+  width: 144px;
+  border: none;
+  height: 40px;
+  flex-shrink: 0;
+  color: #f9f9f9;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#contact {
+  background: url("../assets/contact.png"), lightgray 50% / cover no-repeat;
+  box-shadow: 1440px 848px 0px 0px rgba(0, 0, 0, 0.7) inset;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 725px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.frm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+#contact p {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 100px 100px 0;
+}
+#contact .inp {
+  color: #2d414c;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
+  text-transform: capitalize;
+  width: 97%;
+  padding: 7px;
+}
+
+.inpFrm {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  margin: 0 50px;
+  border: 1px solid gray;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.inpdiv {
+  padding: 20px;
+}
+.inpBtn button {
+  width: 93%;
+  margin-left: 20px;
+  padding: 7px;
+  color: #fff;
+
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
+  text-transform: capitalize;
+  border-radius: 15px;
+  background: #78d6d5;
+  border: none;
+}
+
+.edu {
+  margin-top: 100px;
+}
+.eduHeader p:first-child {
+  color: #ef6a6b;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.eduHeader p:last-child {
+  color: #2d414c;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.eduCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 382px;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.eduItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.eduCard p:nth-child(2) {
+  color: #2d414c;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.eduCard p:nth-child(3) {
+  color: #2d414c;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  word-break: break-all;
+}
+
+.team {
+  width: 100%;
+  height: fit-content;
+  flex-shrink: 0;
+  background: #efefef;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.teamHeader p:first-child {
+  color: #ef6a6b;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.teamHeader p:last-child {
+  color: #2d414c;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.teamBox img {
+  width: 327.599px;
+  height: 454.028px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.teamBox p {
+  color: #2d414c;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.teamBox {
+  padding: 20px;
+  /* margin-right: 60px; */
+}
+.teamBox:nth-child(2) {
+  margin-right: 20px;
+}
+.teamJoin {
+  width: 327.599px;
+  height: 480.028px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ef6a6b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.teamJoin p:nth-child(2) {
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px; /* 109.375% */
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.teamJoin p:nth-child(3) {
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 20px;
+  width: 252px;
+  margin-bottom: 60px;
+}
+.teamJoinImg {
+  width: 130.172px;
+  height: 117.421px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+.teamJoinImg img {
+  width: 91.12px;
+  height: 82.195px;
+  flex-shrink: 0;
+  margin-top: 15px;
+}
+.teamBtn {
+  width: 245.157px;
+  height: 43.054px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.footer {
+  width: 100%;
+  height: 541px;
+  flex-shrink: 0;
+  background: #2d414c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fSection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+.fItem1 {
+  width: 284px;
+  margin: 50px 80px 50px 0;
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.fItem2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 700px;
+  height: 221px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #496270;
+  padding: 30px 50px 0 50px;
+}
+
+.fItem2 h2 {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.fItem2 p {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.copyright {
+  margin: 80px 0px;
+}
+.copyright p {
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  word-break: break-all;
+}
+
+
+/* //REsponsive */
+@media screen and (max-width: 800px) {
+  .container {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  /* .btn {
+    display: none;
+  } */
+  .item a {
+    font-size: 14px;
+    display: none;
+  }
+  .header {
+    /* display: flex; */
+    margin: 0;
+    padding: 5px;
+  }
+  .banner {
+    background: url("../assets/banner.jpeg"), lightgray 50% / cover no-repeat;
+    box-shadow: 1440px 848px 0px 0px rgba(0, 0, 0, 0.5) inset;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 471px;
+    flex-shrink: 0;
+    min-width: 100px;
+  }
+
+  .bannerItem {
+    position: relative;
+    right: 65px;
+    bottom: 150px;
+  }
+  .bannerHeader p:first-child {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px; /* 114.583% */
+    text-transform: capitalize;
+  }
+  .bannerHeader p:last-child {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px; /* 114.583% */
+    text-transform: capitalize;
+  }
+  .bannerBtn {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    margin-top: 30px;
+  }
+  .card > .card1 {
+    border-radius: 20px 20px 0px 0px;
+    background: #78d6d5;
+    width: 300px;
+    height: 230px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    word-break: keep-all;
+  }
+  .card > .card1 p:first-child {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0 0 20px 50px;
+  }
+
+  .card > .card1 > .par {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .cardBtn {
+    width: 217px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #2d414c;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 0 43px;
+  }
+
+  .card > .card2 {
+    background: #2d414c;
+    width: 300px;
+    height: 232px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .card > .card2 p:first-child {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0 0 20px 50px;
+  }
+  .card > .card2 > .par {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .card > .card3 {
+    border-radius: 0px 0px 20px 20px;
+    background: #ef6a6b;
+    width: 300px;
+    height: 230px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* word-break: break-all; */
+  }
+  .card > .card3 p:first-child {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0 0 20px 50px;
+  }
+  .card > .card3 > .par {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .aboutUs {
+    width: 300px;
+    height: 546px;
+    margin-right: 0;
+  }
+
+  .aboutUs > p:nth-child(1) {
+    color: #ef6a6b;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-top: 50px;
+  }
+
+  .aboutUs > p:nth-child(2) {
+    color: #2d414c;
+    font-family: "Playfair Display";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+  }
+  .aboutUs > p:nth-child(3) {
+    color: #2d414c;
+    font-family: "Playfair Display";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+  }
+  .aboutUs > p:nth-child(4) {
+    color: #2d414c;
+    font-family: "Playfair Display";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .box {
+    width: 300px;
+    height: 306px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list div p {
+    font-size: 14px;
+  }
+  .list {
+    margin-top: 0;
+  }
+  .box span {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+  }
+
+  #causes {
+    margin-top: 80px;
+    width: 100%;
+    height: fit-content;
+    flex-shrink: 0;
+    background: #f9f9f9;
+    padding: 0;
+  }
+
+  #causes p:nth-child(1) {
+    color: #ef6a6b;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 40px 0 0 0;
+  }
+
+  #causes .causesPara {
+    color: #2d414c;
+    font-family: "Playfair Display";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    margin-left: 40px;
+  }
+
+  .cards {
+    border-radius: 8px;
+    margin: 16px;
+    width: 300px;
+    margin-bottom: 0;
+  }
+
+  .causesCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards img {
+    max-width: 100%;
+    height: 200px;
+    width: 380px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  #contact{
+    margin: 0;
+    padding: 0;
+  }
+
+  #contact p {
+    color: #ef6a6b;
+    font-family: "Playfair Display";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 133.333% */
+    text-transform: capitalize;
+    margin: 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .frm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+
+  #contact .inp {
+    color: #2d414c;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 200% */
+    text-transform: capitalize;
+    width: 100%;
+    padding: 7px;
+  }
+
+  .inpFrm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    border-radius: 15px;
+  }
+
+  .inpdiv {
+    padding: 15px;
+  }
+  .inpBtn button {
+    border-radius: 2px;
+    background: #78d6d5;
+    width: 245px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    text-transform: capitalize;
+  }
+  .team {
+    width: 100%;
+    height: fit-content;
+    flex-shrink: 0;
+    background: #efefef;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: center;
+  }
+  .teamHeader p:last-child {
+    color: #2d414c;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .teamBox img {
+    width: 300.599px;
+    height: 404.028px;
+    flex-shrink: 0;
+    border-radius: 10px;
+  }
+  .teamBox p {
+    color: #2d414c;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .teamBox:nth-child(2) {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .teamJoin {
+    width: 300.599px;
+    height: 480.028px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #ef6a6b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .fSection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* align-items: center; */
+  }
+
+
+  .fItem1 {
+    width: 284px;
+    margin: 0;
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .fItem2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 221px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #496270;
+    padding: 0;
+  }
+  
+
+  .copyright {
+    margin: 0px;
+    word-break: break-all;
+  }
+  .copyright p {
+    color: #fff;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+ 
+
+
+
+  .fItem1 {
+    
+  }
+  .fItem2 {
+    background: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .fItem2 h2 {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 15px;
+
+  }
+  
+  .fItem2 p {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 9px;
+  
+  }
+  
+}
