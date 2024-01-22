@@ -451,6 +451,50 @@ body {
   width: 97%;
   padding: 7px;
 }
+#contact .FirstName {
+  color: #2d414c;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
+  text-transform: capitalize;
+  width: 97%;
+  padding: 7px;
+}
+#contact .LastName {
+  color: #2d414c;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
+  text-transform: capitalize;
+  width: 97%;
+  padding: 7px;
+}
+#contact .PhoneNumber {
+  color: #2d414c;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
+  text-transform: capitalize;
+  width: 97%;
+  padding: 7px;
+}
+#contact .Message {
+  color: #2d414c;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
+  text-transform: capitalize;
+  width: 97%;
+  padding: 7px;
+}
 
 .inpFrm {
   display: flex;
@@ -463,7 +507,10 @@ body {
 }
 
 .inpdiv {
-  padding: 20px;
+  padding: 10px 20px;
+}
+.inpBtn{
+  padding: 10px 0px;
 }
 .inpBtn button {
   width: 93%;
@@ -478,7 +525,7 @@ body {
   font-weight: 500;
   line-height: 32px; /* 200% */
   text-transform: capitalize;
-  border-radius: 15px;
+  border-radius: 10px;
   background: #78d6d5;
   border: none;
 }
@@ -1071,13 +1118,13 @@ body {
     padding: 50px;
   }
 
-  #contact .FirstName {
+  /* #contact .FirstName {
     color: #2d414c;
     font-family: "Playfair Display";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 200% */
+    line-height: 32px; 
     text-transform: capitalize;
     width: 100%;
     padding: 7px;
@@ -1090,7 +1137,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 200% */
+    line-height: 32px;
     text-transform: capitalize;
     width: 100%;
     padding: 7px;
@@ -1105,7 +1152,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 200% */
+    line-height: 32px;
     text-transform: capitalize;
     width: 100%;
     padding: 7px;
@@ -1121,13 +1168,13 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 200% */
+    line-height: 32px;
     text-transform: capitalize;
     width: 100%;
     padding: 7px;
   }
 
-
+ */
 
 
   .inpFrm {
@@ -1286,6 +1333,41 @@ body {
     font-family: "Playfair Display";
     font-size: 9px;
   
+  }
+  
+}
+
+@media screen and (max-width: 1000px) {
+
+  .bannerHeader p:first-child {
+    font-size: 50px;
+  }
+  .bannerHeader p:last-child {
+    font-size: 80px;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+
+  .bannerHeader p:first-child {
+    font-size: 38px;
+  }
+  .bannerHeader p:last-child {
+    font-size: 60px;
+    padding-bottom: 20px;
+  }
+  
+}
+
+@media screen and (max-width: 360px) {
+
+  .bannerHeader p:first-child {
+    font-size: 20px;
+  }
+  .bannerHeader p:last-child {
+    font-size: 30px;
+    padding-bottom: 20px;
   }
   
 }
