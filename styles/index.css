@@ -1071,7 +1071,7 @@ body {
     padding: 50px;
   }
 
-  #contact .inp {
+  #contact .FirstName {
     color: #2d414c;
     font-family: "Playfair Display";
     font-size: 16px;
@@ -1082,6 +1082,53 @@ body {
     width: 100%;
     padding: 7px;
   }
+
+
+  #contact .LastName {
+    color: #2d414c;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 200% */
+    text-transform: capitalize;
+    width: 100%;
+    padding: 7px;
+  }
+
+
+
+
+  #contact .PhoneNumber {
+    color: #2d414c;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 200% */
+    text-transform: capitalize;
+    width: 100%;
+    padding: 7px;
+  }
+
+
+
+
+
+  #contact .Message {
+    color: #2d414c;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 200% */
+    text-transform: capitalize;
+    width: 100%;
+    padding: 7px;
+  }
+
+
+
 
   .inpFrm {
     display: flex;
@@ -1220,9 +1267,7 @@ body {
 
 
 
-  .fItem1 {
-    
-  }
+  
   .fItem2 {
     background: none;
     display: flex;
