@@ -1195,7 +1195,8 @@ body {
   .inpBtn button {
     border-radius: 2px;
     background: #78d6d5;
-    width: 245px;
+    width: 260px;
+    margin-left: 12px;
     height: 36px;
     flex-shrink: 0;
     color: #fff;
